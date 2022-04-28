@@ -9,7 +9,7 @@ def Red(string):
 
 train = pd.read_csv('LOL_main.csv')
 
-for i in range(1):
+for i in range(10):
     print(Red(f'====={i}====='))
     target='t1_win'
     train = train.iloc[np.random.permutation(len(train))]
